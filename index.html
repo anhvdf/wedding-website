@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Thiệp cưới - Tuấn Anh & Thanh Thảo</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- =========================
+     NAVIGATION
+========================== -->
+
+<nav
+    class="wedding-nav"
+    id="weddingNav"
+>
+
+    <div class="nav-inner">
+
+        <a
+            href="#main-content"
+            class="nav-logo"
+        >
+            VŨ ANH & NGỌC
+        </a>
+
+
+        <!-- DESKTOP MENU -->
+
+        <div class="nav-links">
+
+            <a href="#story">
+                CÂU CHUYỆN
+            </a>
+
+            <a href="#album">
+                ALBUM
+            </a>
+
+            <a href="#event">
+                LỄ CƯỚI
+            </a>
+
+            <a href="#rsvp">
+                RSVP
+            </a>
+
+            <a href="#gift">
+                MỪNG CƯỚI
+            </a>
+
+        </div>
+
+
+        <!-- MOBILE BUTTON -->
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Mở menu"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+
+    <!-- MOBILE MENU -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu"
+    >
+
+        <a href="#story">
+            CÂU CHUYỆN
+        </a>
+
+        <a href="#album">
+            ALBUM
+        </a>
+
+        <a href="#event">
+            LỄ CƯỚI
+        </a>
+
+        <a href="#rsvp">
+            RSVP
+        </a>
+
+        <a href="#gift">
+            MỪNG CƯỚI
+        </a>
+
+    </div>
+
+</nav>
+
+    <!-- =========================
+     BACKGROUND MUSIC
+========================== -->
+
+<audio
+    id="weddingMusic"
+    loop
+    preload="auto"
+>
+    <source
+        src="music/wedding.mp3"
+        type="audio/mpeg"
+    >
+
+    Trình duyệt của bạn không hỗ trợ phát nhạc.
+</audio>
+
+
+<!-- =========================
+     MUSIC BUTTON
+========================== -->
+
+<button
+    id="musicButton"
+    class="music-button"
+    aria-label="Bật hoặc tắt nhạc"
+>
+
+    <span class="music-icon">
+        ♫
+    </span>
+
+</button>
+
+    <!-- =========================
+         MÀN HÌNH MỞ THIỆP
+    ========================== -->
+
+    <section class="opening" id="opening">
+
+        <!-- Lớp phủ -->
+        <div class="overlay"></div>
+
+        <!-- Hoa trang trí -->
+        <div class="flower flower-left">❀</div>
+        <div class="flower flower-right">❀</div>
+
+        <!-- Nội dung -->
+        <div class="opening-content">
+
+            <p class="subtitle">
+                WEDDING INVITATION
+            </p>
+
+            <div class="small-line"></div>
+
+     <h1 class="names">
+
+        <span id="openingGroom">
+            Tuấn Anh 
+        </span>
+
+        <br> <span>&</span> <br>
+
+        <span id="openingBride">
+            Thanh Thảo
+        </span>
+
+    </h1>
+
+            <p
+                class="date"
+                id="openingDate"
+            >
+                29 · 11 · 2026
+            </p>
+
+            <p class="description">
+                Trân trọng kính mời <br>
+                đến chung vui cùng chúng tôi
+            </p>
+
+            <button
+                class="open-button"
+                id="openButton">
+                MỞ THIỆP
+                <span>♡</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PHẦN WEBSITE CHÍNH
+         TẠM THỜI
+    ========================== -->
+
+    <main id="main-content">
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero-section">
+
+        <div class="hero-image-wrapper">
+
+            <img
+                src="images/couple.jpg"
+                alt="Tuấn Anh và Thanh Thảo"
+                class="couple-image"
+            >
+
+        </div>
+
+
+        <div class="hero-content">
+
+            <p class="hero-subtitle">
+                WE ARE GETTING MARRIED
+            </p>
+
+            <h1 class="hero-names">
+
+    <span id="heroGroom">
+        Tuấn Anh
+    </span>
+
+    <br> <span>&</span> <br>
+
+    <span id="heroBride">
+        Thanh Thảo
+    </span>
+
+</h1>
+
+            <p
+                class="hero-date"
+                id="heroDate"
+            >
+                29 · 11 · 2026
+            </p>
+
+            <div class="heart-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <p class="hero-message">
+                Một ngày đặc biệt,
+                một hành trình mới bắt đầu.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         COUNTDOWN
+    ========================== -->
+
+    <section class="countdown-section">
+
+        <p class="section-small-title">
+            THE BIG DAY
+        </p>
+
+        <h2 class="section-title">
+            Đếm ngược đến ngày cưới
+        </h2>
+
+
+        <div class="countdown">
+
+            <div class="countdown-item">
+
+                <strong id="days">
+                    00
+                </strong>
+
+                <span>
+                    NGÀY
+                </span>
+
+            </div>
+
+
+            <div class="countdown-item">
+
+                <strong id="hours">
+                    00
+                </strong>
+
+                <span>
+                    GIỜ
+                </span>
+
+            </div>
+
+
+            <div class="countdown-item">
+
+                <strong id="minutes">
+                    00
+                </strong>
+
+                <span>
+                    PHÚT
+                </span>
+
+            </div>
+
+
+            <div class="countdown-item">
+
+                <strong id="seconds">
+                    00
+                </strong>
+
+                <span>
+                    GIÂY
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <p class="countdown-description">
+
+            Chúng mình rất mong được
+            đón bạn trong ngày đặc biệt này.
+
+        </p>
+
+    </section>
+<!-- =========================
+     LỜI NGỎ
+========================== -->
+
+<section class="intro-section">
+
+    <div class="decorative-flower">
+        ❀
+    </div>
+
+    <p class="section-small-title">
+        OUR STORY
+    </p>
+
+    <h2 class="section-title">
+        Một lời ngỏ
+    </h2>
+
+    <div class="intro-content">
+
+        <p>
+            Có những cuộc gặp gỡ tưởng chừng rất bình thường,
+            nhưng lại trở thành một phần quan trọng
+            trong cuộc đời của mỗi người.
+        </p>
+
+        <p>
+            Chúng mình đã gặp nhau, cùng nhau trải qua
+            những ngày vui, những lúc khó khăn,
+            và rồi nhận ra rằng người bên cạnh
+            chính là người mình muốn đồng hành lâu dài.
+        </p>
+
+        <p class="intro-highlight">
+            Và hôm nay, chúng mình quyết định
+            viết tiếp câu chuyện ấy bằng một chương mới.
+        </p>
+
+        <div class="intro-heart">
+            ♥
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     LOVE STORY
+========================== -->
+
+<section 
+    class="story-section"
+    id="story"
+    >
+
+    <p class="section-small-title">
+        OUR LOVE STORY
+    </p>
+
+    <h2 class="section-title">
+        Câu chuyện của chúng mình
+    </h2>
+
+
+    <div class="timeline">
+
+
+        <!-- t10/2025 -->
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-year">
+                10/2025
+            </div>
+
+            <div class="timeline-dot">
+                ♥
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    Lần đầu gặp nhau
+                </h3>
+
+                <p>
+                    Một cuộc gặp gỡ rất tình cờ,
+                    nhưng lại trở thành khởi đầu
+                    cho một câu chuyện thật đẹp.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- t11/2025 -->
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-year">
+                11/2025
+            </div>
+
+            <div class="timeline-dot">
+                ♥
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    Chính thức bên nhau
+                </h3>
+
+                <p>
+                    Chúng mình bắt đầu cùng nhau
+                    bước qua những ngày vui,
+                    cùng chia sẻ những điều nhỏ bé
+                    trong cuộc sống.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- 2026 -->
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-year">
+                2026
+            </div>
+
+            <div class="timeline-dot">
+                ♥
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    Những hành trình đáng nhớ
+                </h3>
+
+                <p>
+                    Cùng nhau đi qua nhiều nơi,
+                    lưu giữ thật nhiều kỷ niệm
+                    và hiểu nhau hơn từng ngày.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- 11/2026 -->
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-year">
+                11/2026
+            </div>
+
+            <div class="timeline-dot">
+                ♥
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    Về chung một nhà
+                </h3>
+
+                <p>
+                    Một lời hứa cho chặng đường mới,
+                    nơi chúng mình sẽ cùng nhau
+                    viết tiếp những năm tháng phía trước.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="story-ending">
+
+        <p>
+            "Thank you for being part of
+            our special day."
+        </p>
+
+        <span>
+            ♥
+        </span>
+
+    </div>
+
+</section>
+<!-- =========================
+     ALBUM
+========================== -->
+
+<section class="album-section"
+        id="album"
+>
+
+    <p class="section-small-title">
+        OUR MEMORIES
+    </p>
+
+    <h2 class="section-title">
+        Album của chúng mình
+    </h2>
+
+    <p class="album-description">
+        Những khoảnh khắc nhỏ bé,
+        những kỷ niệm thật lớn.
+    </p>
+
+
+    <div class="gallery">
+
+
+        <!-- ẢNH 1 -->
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="images/photo1.jpg"
+                alt="Ảnh cưới 1"
+            >
+
+            <div class="gallery-overlay">
+                <span>+</span>
+            </div>
+
+        </div>
+
+
+        <!-- ẢNH 2 -->
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="images/photo2.jpg"
+                alt="Ảnh cưới 2"
+            >
+
+            <div class="gallery-overlay">
+                <span>+</span>
+            </div>
+
+        </div>
+
+
+        <!-- ẢNH 3 -->
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="images/photo3.jpg"
+                alt="Ảnh cưới 3"
+            >
+
+            <div class="gallery-overlay">
+                <span>+</span>
+            </div>
+
+        </div>
+
+
+        <!-- ẢNH 4 -->
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="images/photo4.jpg"
+                alt="Ảnh cưới 4"
+            >
+
+            <div class="gallery-overlay">
+                <span>+</span>
+            </div>
+
+        </div>
+
+
+        <!-- ẢNH 5 -->
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="images/photo5.jpg"
+                alt="Ảnh cưới 5"
+            >
+
+            <div class="gallery-overlay">
+                <span>+</span>
+            </div>
+
+        </div>
+
+
+        <!-- ẢNH 6 -->
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="images/photo6.jpg"
+                alt="Ảnh cưới 6"
+            >
+
+            <div class="gallery-overlay">
+                <span>+</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     LIGHTBOX
+========================== -->
+
+<div
+    class="lightbox"
+    id="lightbox"
+>
+
+    <button
+        class="lightbox-close"
+        id="lightboxClose"
+    >
+        ×
+    </button>
+
+    <button
+        class="lightbox-prev"
+        id="lightboxPrev"
+    >
+        ‹
+    </button>
+
+    <img
+        id="lightboxImage"
+        src=""
+        alt="Ảnh phóng to"
+    >
+
+    <button
+        class="lightbox-next"
+        id="lightboxNext"
+    >
+        ›
+    </button>
+
+</div>
+<!-- =========================
+     WEDDING EVENT
+========================== -->
+
+<section class="event-section"
+        id="event"
+>
+
+    <p class="section-small-title">
+        THE WEDDING
+    </p>
+
+    <h2 class="section-title">
+        Thông tin lễ cưới
+    </h2>
+
+    <p class="event-description">
+        Sự hiện diện của bạn là niềm vui và
+        hạnh phúc đối với gia đình chúng tôi.
+    </p>
+
+
+    <!-- =========================
+         2 GIA ĐÌNH
+    ========================== -->
+
+    <div class="family-events">
+
+
+        <!-- NHÀ TRAI -->
+
+        <div class="event-card reveal">
+
+            <div class="event-icon">
+                ♥
+            </div>
+
+            <p class="event-label">
+                NHÀ TRAI
+            </p>
+
+            <h3>
+                LỄ THÀNH HÔN
+            </h3>
+
+            <div class="event-divider"></div>
+
+            <p class="event-date">
+                Chủ Nhật<br>
+                <strong>29 · 11 · 2026</strong>
+            </p>
+
+            <p class="event-time">
+                08:30 — Đón khách
+                <br>
+                13:30 — Làm lễ
+            </p>
+
+            <p class="event-place">
+                <strong>Nhà riêng gia đình chú rể</strong>
+                <br>
+                Thôn Thụy Lôi, Xã Tiên Lữ
+                <br>
+                Tỉnh Hưng Yên
+            </p>
+
+            <a
+                class="map-button"
+                href="https://maps.app.goo.gl/SBMUVZmgqih6AduF8"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                XEM CHỈ ĐƯỜNG
+                <span>↗</span>
+            </a>
+
+        </div>
+
+
+        <!-- NHÀ GÁI -->
+
+        <div class="event-card reveal">
+
+            <div class="event-icon">
+                ♥
+            </div>
+
+            <p class="event-label">
+                NHÀ GÁI
+            </p>
+
+            <h3>
+                LỄ VU QUY
+            </h3>
+
+            <div class="event-divider"></div>
+
+            <p class="event-date">
+                Chủ Nhật<br>
+                <strong>20 · 12 · 2026</strong>
+            </p>
+
+            <p class="event-time">
+                08:30 — Đón khách
+                <br>
+                11:30 — Làm lễ
+            </p>
+
+            <p class="event-place">
+                <strong>Nhà riêng gia đình cô dâu</strong>
+                <br>
+                Văn Tố, Tứ Kỳ
+                <br>
+                Tp Hải Phòng
+            </p>
+
+            <a
+                class="map-button"
+                href="https://maps.app.goo.gl/SBMUVZmgqih6AduF8"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                XEM CHỈ ĐƯỜNG
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         TIỆC CƯỚI
+    ========================== -->
+
+    <div class="main-event reveal">
+
+        <p class="event-label">
+            WEDDING RECEPTION
+        </p>
+
+        <h3>
+            TIỆC CƯỚI
+        </h3>
+
+        <div class="event-divider"></div>
+
+        <p class="main-event-date">
+            18:00 · Thứ Bảy · 28/11/2026
+        </p>
+
+        <p class="main-event-place">
+            <strong>Tại nhà riêng gia đình!</strong>
+            <br>
+            
+        </p>
+
+        <a
+            class="main-map-button"
+            href="https://maps.app.goo.gl/SBMUVZmgqih6AduF8"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            📍 Link Chỉ Đường
+        </a>
+
+    </div>
+
+
+    <!-- =========================
+         LỊCH TRÌNH
+    ========================== -->
+
+    <div class="schedule">
+
+        <p class="section-small-title">
+            WEDDING SCHEDULE
+        </p>
+
+        <h3>
+            Lịch trình trong ngày
+        </h3>
+
+
+        <div class="schedule-list">
+
+            <div class="schedule-item reveal">
+
+                <div class="schedule-time">
+                    11:30
+                </div>
+
+                <div class="schedule-content">
+
+                    <h4>
+                        Lễ Vu Quy
+                    </h4>
+
+                    <p>
+                        Nghi thức tại gia đình cô dâu
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="schedule-item reveal">
+
+                <div class="schedule-time">
+                    13:00
+                </div>
+
+                <div class="schedule-content">
+
+                    <h4>
+                        Đón khách
+                    </h4>
+
+                    <p>
+                        Gia đình hai bên đón tiếp khách mời
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="schedule-item reveal">
+
+                <div class="schedule-time">
+                    13:30
+                </div>
+
+                <div class="schedule-content">
+
+                    <h4>
+                        Lễ thành hôn
+                    </h4>
+
+                    <p>
+                        Nghi thức cưới
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!--
+            <div class="schedule-item reveal">
+
+                <div class="schedule-time">
+                    18:00
+                </div>
+
+                <div class="schedule-content">
+
+                    <h4>
+                        Tiệc cưới
+                    </h4>
+
+                    <p>
+                        Cùng nâng ly chúc mừng hạnh phúc
+                    </p>
+
+                </div>
+                
+
+            </div>
+            -->
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     RSVP
+========================== -->
+
+<section class="rsvp-section"
+        id="rsvp"
+>
+
+    <p class="section-small-title">
+        RSVP
+    </p>
+
+    <h2 class="section-title">
+        Xác nhận tham dự
+    </h2>
+
+    <p class="rsvp-intro">
+        Sự hiện diện của bạn là món quà
+        ý nghĩa nhất đối với chúng mình.
+    </p>
+
+
+    <div class="rsvp-container">
+
+
+        <!-- FORM -->
+
+        <form
+            id="rsvpForm"
+            class="rsvp-form"
+        >
+
+            <!-- TÊN -->
+
+            <div class="form-group">
+
+                <label for="guestName">
+                    Họ và tên
+                </label>
+
+                <input
+                    type="text"
+                    id="guestName"
+                    name="guestName"
+                    placeholder="Nhập họ và tên"
+                    required
+                >
+
+            </div>
+
+
+            <!-- THAM DỰ -->
+
+            <div class="form-group">
+
+                <label>
+                    Bạn sẽ tham dự?
+                </label>
+
+
+                <div class="radio-group">
+
+                    <label class="radio-option">
+
+                        <input
+                            type="radio"
+                            name="attendance"
+                            value="Có, chắc chắn tham dự"
+                            required
+                        >
+
+                        <span>
+                            Có, chắc chắn tham dự
+                        </span>
+
+                    </label>
+
+
+                    <label class="radio-option">
+
+                        <input
+                            type="radio"
+                            name="attendance"
+                            value="Rất tiếc, không thể tham dự"
+                        >
+
+                        <span>
+                            Rất tiếc, không thể tham dự
+                        </span>
+
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <!-- SỐ KHÁCH -->
+
+            <div class="form-group">
+
+                <label for="guestCount">
+                    Số người tham dự
+                </label>
+
+                <select
+                    id="guestCount"
+                    name="guestCount"
+                >
+
+                    <option value="1">
+                        1 người
+                    </option>
+
+                    <option value="2">
+                        2 người
+                    </option>
+
+                    <option value="3">
+                        3 người
+                    </option>
+
+                    <option value="4">
+                        4 người
+                    </option>
+
+                    <option value="5">
+                        5 người
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- LỜI NHẮN -->
+
+            <div class="form-group">
+
+                <label for="guestMessage">
+                    Lời nhắn
+                </label>
+
+                <textarea
+                    id="guestMessage"
+                    name="guestMessage"
+                    rows="5"
+                    placeholder="Gửi lời chúc đến cô dâu và chú rể..."
+                ></textarea>
+
+            </div>
+
+
+            <!-- BUTTON -->
+
+            <button
+                type="submit"
+                class="rsvp-button"
+            >
+                GỬI XÁC NHẬN
+                <span>♥</span>
+            </button>
+
+        </form>
+
+
+        <!-- THÔNG BÁO THÀNH CÔNG -->
+
+        <div
+            class="rsvp-success"
+            id="rsvpSuccess"
+        >
+
+            <div class="success-heart">
+                ♥
+            </div>
+
+            <h3>
+                Cảm ơn bạn!
+            </h3>
+
+            <p>
+                Chúng mình đã nhận được
+                lời xác nhận của bạn.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     WISHES
+========================== -->
+
+<section class="wishes-section">
+
+    <p class="section-small-title">
+        WISHES
+    </p>
+
+    <h2 class="section-title">
+        Những lời chúc yêu thương
+    </h2>
+
+
+    <div class="wishes-list">
+
+
+        <!-- LỜI CHÚC 1 -->
+
+        <div class="wish-item reveal">
+
+            <div class="wish-avatar">
+                ♥
+            </div>
+
+            <div class="wish-content">
+
+                <h3>
+                    Gia đình cô chú ...
+                </h3>
+
+                <p>
+                    Chúc hai cháu trăm năm hạnh phúc,
+                    luôn yêu thương và đồng hành
+                    cùng nhau trên mọi chặng đường.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- LỜI CHÚC 2 -->
+
+        <div class="wish-item reveal">
+
+            <div class="wish-avatar">
+                ♥
+            </div>
+
+            <div class="wish-content">
+
+                <h3>
+                    Bạn Thẻo
+                </h3>
+
+                <p>
+                    Chúc mừng hạnh phúc hai bạn!
+                    Chúc cuộc sống mới luôn
+                    ngập tràn niềm vui và tiếng cười.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- LỜI CHÚC 3 -->
+
+        <div class="wish-item reveal">
+
+            <div class="wish-avatar">
+                ♥
+            </div>
+
+            <div class="wish-content">
+
+                <h3>
+                    Bạn Linh
+                </h3>
+
+                <p>
+                    Chúc hai bạn mãi luôn
+                    hạnh phúc bên nhau ♥
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     GIFT / BANK QR
+========================== -->
+
+<section class="gift-section"
+        id="gift"
+>
+
+    <p class="section-small-title">
+        WITH LOVE
+    </p>
+
+    <h2 class="section-title">
+        Mừng cưới
+    </h2>
+
+    <p class="gift-description">
+        Sự hiện diện của bạn đã là món quà
+        ý nghĩa nhất đối với chúng mình.
+        <br>
+        Nếu bạn muốn gửi thêm một món quà,
+        có thể sử dụng mã QR dưới đây.
+    </p>
+
+
+    <div class="bank-cards">
+
+
+        <!-- =====================
+             CÔ DÂU
+        ====================== -->
+
+        <div class="bank-card reveal">
+
+            <div class="bank-card-title">
+
+                <span>♡</span>
+
+                <p>CÔ DÂU</p>
+
+            </div>
+
+
+            <div class="qr-wrapper">
+
+                <img
+                    src="images/qr-bride.jpg"
+                    alt="QR mừng cưới cô dâu"
+                >
+
+            </div>
+
+
+            <h3>
+                Bùi Thị Thanh Thảo
+            </h3>
+
+            <p class="bank-name">
+                Viettinbank
+            </p>
+
+            <p class="account-number">
+                xxxxxxxxx
+            </p>
+
+
+            <button
+                class="copy-button"
+                data-account="xxxxxxxxx"
+            >
+                SAO CHÉP SỐ TÀI KHOẢN
+            </button>
+
+
+            <p class="copy-message">
+            </p>
+
+        </div>
+
+
+        <!-- =====================
+             CHÚ RỂ
+        ====================== -->
+
+        <div class="bank-card reveal">
+
+            <div class="bank-card-title">
+
+                <span>♡</span>
+
+                <p>CHÚ RỂ</p>
+
+            </div>
+
+
+            <div class="qr-wrapper">
+
+                <img
+                    src="images/qr-groom.jpg"
+                    alt="QR mừng cưới chú rể"
+                >
+
+            </div>
+
+
+            <h3>
+                VŨ Tuấn Anh
+            </h3>
+
+            <p class="bank-name">
+                Viettinbank
+            </p>
+
+            <p class="account-number">
+                9876543210
+            </p>
+
+
+            <button
+                class="copy-button"
+                data-account="9876543210"
+            >
+                SAO CHÉP SỐ TÀI KHOẢN
+            </button>
+
+
+            <p class="copy-message">
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+</main>
+
+
+
+    <!-- =========================
+     BACK TO TOP
+    ========================== -->
+
+    <button
+    id="backToTop"
+    class="back-to-top"
+    aria-label="Về đầu trang"
+    >
+    ↑
+    </button>
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer class="wedding-footer">
+
+    <div class="footer-content">
+
+        <p class="footer-small">
+            THANK YOU FOR BEING PART
+            OF OUR SPECIAL DAY
+        </p>
+
+        <h2>
+            Tuấn Anh
+            <span>&</span>
+            Thanh Thảo
+        </h2>
+
+        <p class="footer-date">
+            29 · 11 · 2026
+        </p>
+
+        <div class="footer-heart">
+            ♥
+        </div>
+
+        <p class="footer-copy">
+            Made with love
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="wedding-config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
